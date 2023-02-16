@@ -1,0 +1,24 @@
+<div class="container mt-3 col-5">
+    <form (ngSubmit)="login()">
+        <div class="mb-4">
+            <label for="usernameField" class="form-label">Username:</label>
+            <input type="text" class="form-control" id="usernameField" name="username" [(ngModel)]="username">
+        </div>
+
+        <div class="mb-4">
+            <label for="passwordField" class="form-label">Password:</label>
+            <input type="password" class="form-control" id="passwordField" name="password" [(ngModel)]="password">
+        </div>
+
+        <div class="row">
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+
+            <div class="col-auto">
+                <button (click)="back()" type="button" class="btn btn-outline-dark">Back</button>
+            </div>
+
+        </div>
+    </form>
+</div>
