@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon'
 import { MatButtonModule } from '@angular/material/button';
+import { ViewProfileComponent } from './view-profile/view-profile.component';
 
 
 
@@ -18,6 +19,7 @@ import { MatButtonModule } from '@angular/material/button';
     AppComponent,
     LoginComponent,
     AccountInfoComponent,
+    ViewProfileComponent,
   ],
   imports: [
     BrowserModule,
